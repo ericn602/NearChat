@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BB14381ADA7F57008103D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB14371ADA7F57008103D5 /* main.m */; };
+		07BB143B1ADA7F57008103D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB143A1ADA7F57008103D5 /* AppDelegate.m */; };
+		07BB143E1ADA7F57008103D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB143D1ADA7F57008103D5 /* ViewController.m */; };
+		07BB14411ADA7F57008103D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BB143F1ADA7F57008103D5 /* Main.storyboard */; };
+		07BB14431ADA7F57008103D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BB14421ADA7F57008103D5 /* Images.xcassets */; };
+		07BB14461ADA7F57008103D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BB14441ADA7F57008103D5 /* LaunchScreen.xib */; };
+		07BB14521ADA7F57008103D5 /* NearChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB14511ADA7F57008103D5 /* NearChatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07BB144C1ADA7F57008103D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07BB142A1ADA7F57008103D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07BB14311ADA7F57008103D5;
+			remoteInfo = NearChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BB14321ADA7F57008103D5 /* NearChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BB14361ADA7F57008103D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07BB14371ADA7F57008103D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07BB14391ADA7F57008103D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07BB143A1ADA7F57008103D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07BB143C1ADA7F57008103D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07BB143D1ADA7F57008103D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07BB14401ADA7F57008103D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07BB14421ADA7F57008103D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07BB14451ADA7F57008103D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07BB144B1ADA7F57008103D5 /* NearChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BB14501ADA7F57008103D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07BB14511ADA7F57008103D5 /* NearChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearChatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07BB142F1ADA7F57008103D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BB14481ADA7F57008103D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BB14291ADA7F57008103D5 = {
+			isa = PBXGroup;
+			children = (
+				07BB14341ADA7F57008103D5 /* NearChat */,
+				07BB144E1ADA7F57008103D5 /* NearChatTests */,
+				07BB14331ADA7F57008103D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07BB14331ADA7F57008103D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07BB14321ADA7F57008103D5 /* NearChat.app */,
+				07BB144B1ADA7F57008103D5 /* NearChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07BB14341ADA7F57008103D5 /* NearChat */ = {
+			isa = PBXGroup;
+			children = (
+				07BB14391ADA7F57008103D5 /* AppDelegate.h */,
+				07BB143A1ADA7F57008103D5 /* AppDelegate.m */,
+				07BB143C1ADA7F57008103D5 /* ViewController.h */,
+				07BB143D1ADA7F57008103D5 /* ViewController.m */,
+				07BB143F1ADA7F57008103D5 /* Main.storyboard */,
+				07BB14421ADA7F57008103D5 /* Images.xcassets */,
+				07BB14441ADA7F57008103D5 /* LaunchScreen.xib */,
+				07BB14351ADA7F57008103D5 /* Supporting Files */,
+			);
+			path = NearChat;
+			sourceTree = "<group>";
+		};
+		07BB14351ADA7F57008103D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07BB14361ADA7F57008103D5 /* Info.plist */,
+				07BB14371ADA7F57008103D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07BB144E1ADA7F57008103D5 /* NearChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				07BB14511ADA7F57008103D5 /* NearChatTests.m */,
+				07BB144F1ADA7F57008103D5 /* Supporting Files */,
+			);
+			path = NearChatTests;
+			sourceTree = "<group>";
+		};
+		07BB144F1ADA7F57008103D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07BB14501ADA7F57008103D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07BB14311ADA7F57008103D5 /* NearChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BB14551ADA7F57008103D5 /* Build configuration list for PBXNativeTarget "NearChat" */;
+			buildPhases = (
+				07BB142E1ADA7F57008103D5 /* Sources */,
+				07BB142F1ADA7F57008103D5 /* Frameworks */,
+				07BB14301ADA7F57008103D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearChat;
+			productName = NearChat;
+			productReference = 07BB14321ADA7F57008103D5 /* NearChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07BB144A1ADA7F57008103D5 /* NearChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BB14581ADA7F57008103D5 /* Build configuration list for PBXNativeTarget "NearChatTests" */;
+			buildPhases = (
+				07BB14471ADA7F57008103D5 /* Sources */,
+				07BB14481ADA7F57008103D5 /* Frameworks */,
+				07BB14491ADA7F57008103D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07BB144D1ADA7F57008103D5 /* PBXTargetDependency */,
+			);
+			name = NearChatTests;
+			productName = NearChatTests;
+			productReference = 07BB144B1ADA7F57008103D5 /* NearChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07BB142A1ADA7F57008103D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eric Nguyen";
+				TargetAttributes = {
+					07BB14311ADA7F57008103D5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					07BB144A1ADA7F57008103D5 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 07BB14311ADA7F57008103D5;
+					};
+				};
+			};
+			buildConfigurationList = 07BB142D1ADA7F57008103D5 /* Build configuration list for PBXProject "NearChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07BB14291ADA7F57008103D5;
+			productRefGroup = 07BB14331ADA7F57008103D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07BB14311ADA7F57008103D5 /* NearChat */,
+				07BB144A1ADA7F57008103D5 /* NearChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07BB14301ADA7F57008103D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BB14411ADA7F57008103D5 /* Main.storyboard in Resources */,
+				07BB14461ADA7F57008103D5 /* LaunchScreen.xib in Resources */,
+				07BB14431ADA7F57008103D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BB14491ADA7F57008103D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07BB142E1ADA7F57008103D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BB143E1ADA7F57008103D5 /* ViewController.m in Sources */,
+				07BB143B1ADA7F57008103D5 /* AppDelegate.m in Sources */,
+				07BB14381ADA7F57008103D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BB14471ADA7F57008103D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BB14521ADA7F57008103D5 /* NearChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07BB144D1ADA7F57008103D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07BB14311ADA7F57008103D5 /* NearChat */;
+			targetProxy = 07BB144C1ADA7F57008103D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07BB143F1ADA7F57008103D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07BB14401ADA7F57008103D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07BB14441ADA7F57008103D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07BB14451ADA7F57008103D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07BB14531ADA7F57008103D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07BB14541ADA7F57008103D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07BB14561ADA7F57008103D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NearChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07BB14571ADA7F57008103D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NearChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07BB14591ADA7F57008103D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NearChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearChat.app/NearChat";
+			};
+			name = Debug;
+		};
+		07BB145A1ADA7F57008103D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NearChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearChat.app/NearChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07BB142D1ADA7F57008103D5 /* Build configuration list for PBXProject "NearChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BB14531ADA7F57008103D5 /* Debug */,
+				07BB14541ADA7F57008103D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07BB14551ADA7F57008103D5 /* Build configuration list for PBXNativeTarget "NearChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BB14561ADA7F57008103D5 /* Debug */,
+				07BB14571ADA7F57008103D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07BB14581ADA7F57008103D5 /* Build configuration list for PBXNativeTarget "NearChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BB14591ADA7F57008103D5 /* Debug */,
+				07BB145A1ADA7F57008103D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07BB142A1ADA7F57008103D5 /* Project object */;
+}
