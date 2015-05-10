@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Quickblox/Quickblox.h"
 
+@protocol completedNotificationDelegate <NSObject>
+
+-(void)loadLocation;
+
+@end
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong,nonatomic) id<completedNotificationDelegate> delegate;
 
 @end
 

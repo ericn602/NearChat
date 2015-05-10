@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A1A3411AE7965200D495AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A1A3401AE7965100D495AE /* ViewController.m */; };
 		07BB14381ADA7F57008103D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB14371ADA7F57008103D5 /* main.m */; };
 		07BB143B1ADA7F57008103D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB143A1ADA7F57008103D5 /* AppDelegate.m */; };
-		07BB143E1ADA7F57008103D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB143D1ADA7F57008103D5 /* ViewController.m */; };
 		07BB14411ADA7F57008103D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BB143F1ADA7F57008103D5 /* Main.storyboard */; };
 		07BB14431ADA7F57008103D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BB14421ADA7F57008103D5 /* Images.xcassets */; };
 		07BB14461ADA7F57008103D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BB14441ADA7F57008103D5 /* LaunchScreen.xib */; };
 		07BB14521ADA7F57008103D5 /* NearChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB14511ADA7F57008103D5 /* NearChatTests.m */; };
+		07BB145C1ADA8239008103D5 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB145B1ADA8239008103D5 /* Quickblox.framework */; };
+		07BB145E1ADA8396008103D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB145D1ADA8396008103D5 /* SystemConfiguration.framework */; };
+		07BB14601ADA839C008103D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB145F1ADA839C008103D5 /* MobileCoreServices.framework */; };
+		07BB14621ADA83A4008103D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB14611ADA83A4008103D5 /* CoreGraphics.framework */; };
+		07BB14641ADA83A9008103D5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB14631ADA83A9008103D5 /* CoreLocation.framework */; };
+		07BB14661ADA83B2008103D5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB14651ADA83B2008103D5 /* CoreData.framework */; };
+		07BB14681ADA83B7008103D5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB14671ADA83B7008103D5 /* AudioToolbox.framework */; };
+		07BB146A1ADA83BE008103D5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB14691ADA83BE008103D5 /* CoreMedia.framework */; };
+		07BB146C1ADA83C6008103D5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB146B1ADA83C6008103D5 /* Accelerate.framework */; };
+		07BB146E1ADA83D0008103D5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB146D1ADA83D0008103D5 /* CoreVideo.framework */; };
+		07BB14701ADA83D4008103D5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB146F1ADA83D4008103D5 /* AVFoundation.framework */; };
+		07BB14721ADA83DA008103D5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB14711ADA83DA008103D5 /* Security.framework */; };
+		07BB14741ADA83E8008103D5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB14731ADA83E8008103D5 /* libz.dylib */; };
+		07BB14761ADA83F4008103D5 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB14751ADA83F4008103D5 /* libresolv.dylib */; };
+		07BB14781ADA83FF008103D5 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BB14771ADA83FF008103D5 /* libxml2.2.dylib */; };
+		07BFD73E1AE64AF900C7BE3E /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BFD73D1AE64AF900C7BE3E /* ChatViewController.m */; };
+		FDF24604462DA7754B6B1F32 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 807573F0B8BBB08987C1F9FE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +44,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B0B7B45BEA54EC2AAB9ACC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		07A1A3401AE7965100D495AE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		07BB14321ADA7F57008103D5 /* NearChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BB14361ADA7F57008103D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07BB14371ADA7F57008103D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07BB14391ADA7F57008103D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07BB143A1ADA7F57008103D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		07BB143C1ADA7F57008103D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07BB143D1ADA7F57008103D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		07BB14401ADA7F57008103D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07BB14421ADA7F57008103D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		07BB14451ADA7F57008103D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		07BB144B1ADA7F57008103D5 /* NearChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BB14501ADA7F57008103D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07BB14511ADA7F57008103D5 /* NearChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearChatTests.m; sourceTree = "<group>"; };
+		07BB145B1ADA8239008103D5 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
+		07BB145D1ADA8396008103D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		07BB145F1ADA839C008103D5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		07BB14611ADA83A4008103D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07BB14631ADA83A9008103D5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		07BB14651ADA83B2008103D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07BB14671ADA83B7008103D5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		07BB14691ADA83BE008103D5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		07BB146B1ADA83C6008103D5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		07BB146D1ADA83D0008103D5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		07BB146F1ADA83D4008103D5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		07BB14711ADA83DA008103D5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		07BB14731ADA83E8008103D5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		07BB14751ADA83F4008103D5 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		07BB14771ADA83FF008103D5 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		07BFD73C1AE64AF900C7BE3E /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		07BFD73D1AE64AF900C7BE3E /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		807573F0B8BBB08987C1F9FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D015E322ABC8ED309584877C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +84,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BB14781ADA83FF008103D5 /* libxml2.2.dylib in Frameworks */,
+				07BB14761ADA83F4008103D5 /* libresolv.dylib in Frameworks */,
+				07BB14741ADA83E8008103D5 /* libz.dylib in Frameworks */,
+				07BB14721ADA83DA008103D5 /* Security.framework in Frameworks */,
+				07BB14701ADA83D4008103D5 /* AVFoundation.framework in Frameworks */,
+				07BB146E1ADA83D0008103D5 /* CoreVideo.framework in Frameworks */,
+				07BB146C1ADA83C6008103D5 /* Accelerate.framework in Frameworks */,
+				07BB146A1ADA83BE008103D5 /* CoreMedia.framework in Frameworks */,
+				07BB14681ADA83B7008103D5 /* AudioToolbox.framework in Frameworks */,
+				07BB14661ADA83B2008103D5 /* CoreData.framework in Frameworks */,
+				07BB14641ADA83A9008103D5 /* CoreLocation.framework in Frameworks */,
+				07BB14621ADA83A4008103D5 /* CoreGraphics.framework in Frameworks */,
+				07BB14601ADA839C008103D5 /* MobileCoreServices.framework in Frameworks */,
+				07BB145E1ADA8396008103D5 /* SystemConfiguration.framework in Frameworks */,
+				FDF24604462DA7754B6B1F32 /* libPods.a in Frameworks */,
+				07BB145C1ADA8239008103D5 /* Quickblox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +119,8 @@
 				07BB14341ADA7F57008103D5 /* NearChat */,
 				07BB144E1ADA7F57008103D5 /* NearChatTests */,
 				07BB14331ADA7F57008103D5 /* Products */,
+				EAC6C74D9B9C6F5028A8769A /* Pods */,
+				44CF50FD5A47B1293AF61027 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,8 +139,10 @@
 				07BB14391ADA7F57008103D5 /* AppDelegate.h */,
 				07BB143A1ADA7F57008103D5 /* AppDelegate.m */,
 				07BB143C1ADA7F57008103D5 /* ViewController.h */,
-				07BB143D1ADA7F57008103D5 /* ViewController.m */,
+				07A1A3401AE7965100D495AE /* ViewController.m */,
 				07BB143F1ADA7F57008103D5 /* Main.storyboard */,
+				07BFD73C1AE64AF900C7BE3E /* ChatViewController.h */,
+				07BFD73D1AE64AF900C7BE3E /* ChatViewController.m */,
 				07BB14421ADA7F57008103D5 /* Images.xcassets */,
 				07BB14441ADA7F57008103D5 /* LaunchScreen.xib */,
 				07BB14351ADA7F57008103D5 /* Supporting Files */,
@@ -119,6 +176,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		44CF50FD5A47B1293AF61027 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07BB14771ADA83FF008103D5 /* libxml2.2.dylib */,
+				07BB14751ADA83F4008103D5 /* libresolv.dylib */,
+				07BB14731ADA83E8008103D5 /* libz.dylib */,
+				07BB14711ADA83DA008103D5 /* Security.framework */,
+				07BB146F1ADA83D4008103D5 /* AVFoundation.framework */,
+				07BB146D1ADA83D0008103D5 /* CoreVideo.framework */,
+				07BB146B1ADA83C6008103D5 /* Accelerate.framework */,
+				07BB14691ADA83BE008103D5 /* CoreMedia.framework */,
+				07BB14671ADA83B7008103D5 /* AudioToolbox.framework */,
+				07BB14651ADA83B2008103D5 /* CoreData.framework */,
+				07BB14631ADA83A9008103D5 /* CoreLocation.framework */,
+				07BB14611ADA83A4008103D5 /* CoreGraphics.framework */,
+				07BB145F1ADA839C008103D5 /* MobileCoreServices.framework */,
+				07BB145D1ADA8396008103D5 /* SystemConfiguration.framework */,
+				07BB145B1ADA8239008103D5 /* Quickblox.framework */,
+				807573F0B8BBB08987C1F9FE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAC6C74D9B9C6F5028A8769A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D015E322ABC8ED309584877C /* Pods.debug.xcconfig */,
+				04B0B7B45BEA54EC2AAB9ACC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07BB14551ADA7F57008103D5 /* Build configuration list for PBXNativeTarget "NearChat" */;
 			buildPhases = (
+				6241DB5A8A13B5C4BB080889 /* Check Pods Manifest.lock */,
 				07BB142E1ADA7F57008103D5 /* Sources */,
 				07BB142F1ADA7F57008103D5 /* Frameworks */,
 				07BB14301ADA7F57008103D5 /* Resources */,
+				434D8BA337E72ACD7F7810C3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +305,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		434D8BA337E72ACD7F7810C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6241DB5A8A13B5C4BB080889 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07BB142E1ADA7F57008103D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07BB143E1ADA7F57008103D5 /* ViewController.m in Sources */,
 				07BB143B1ADA7F57008103D5 /* AppDelegate.m in Sources */,
+				07BFD73E1AE64AF900C7BE3E /* ChatViewController.m in Sources */,
+				07A1A3411AE7965200D495AE /* ViewController.m in Sources */,
 				07BB14381ADA7F57008103D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,21 +470,33 @@
 		};
 		07BB14561ADA7F57008103D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D015E322ABC8ED309584877C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NearChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		07BB14571ADA7F57008103D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B0B7B45BEA54EC2AAB9ACC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NearChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +553,7 @@
 				07BB14571ADA7F57008103D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07BB14581ADA7F57008103D5 /* Build configuration list for PBXNativeTarget "NearChatTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +562,7 @@
 				07BB145A1ADA7F57008103D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

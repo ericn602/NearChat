@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
 
 @interface ChatViewController : UIViewController
-
+@property (nonatomic, strong) QBChatDialog *dialog;
 @end

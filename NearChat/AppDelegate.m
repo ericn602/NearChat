@@ -11,13 +11,43 @@
 @interface AppDelegate ()
 
 @end
-
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    return YES;
+    [QBApplication sharedApplication].applicationId = 22026;
+    [QBConnection registerServiceKey:@"XOTJ38O6Ht8jUmV"];
+    [QBConnection registerServiceSecret:@"cpNf5TeTQRarjEy"];
+    [QBSettings setAccountKey:@"DLe5JiVXzsRvVqxkeD4U"];
+    
+    NSString *userLogin = @"12345";
+    NSString *userPassword = @"12345678";
+    
+    QBSessionParameters *parameters = [[QBSessionParameters alloc] init];
+    parameters.userLogin = userLogin;
+    parameters.userPassword = userPassword;
+    
+    
+    [QBRequest createSessionWithExtendedParameters:parameters successBlock:^(QBResponse *response, QBASession *session) {
+        // Sign In to QuickBlox Chat
+        QBUUser *currentUser = [QBUUser user];
+        currentUser.ID = session.userID; // your current user's ID
+        currentUser.login = userLogin;
+        currentUser.password = userPassword; // your current user's password
+        
+        // set Chat delegate
+        [[QBChat instance] addDelegate:self];
+        // login to Chat
+        [[QBChat instance] loginWithUser:currentUser];
+        [self.delegate loadLocation ];
+        
+    } errorBlock:^(QBResponse *response) {
+        // error handling
+        NSLog(@"error: %@", response.error);
+    }];
+
+        return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

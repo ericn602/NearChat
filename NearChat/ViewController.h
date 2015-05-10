@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "Quickblox/Quickblox.h"
+@interface ViewController : UITableViewController
+- (IBAction)addDialog:(id)sender;
+- (IBAction)refresh:(id)sender;
 
 
 @end
